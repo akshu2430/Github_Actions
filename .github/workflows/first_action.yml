@@ -1,0 +1,10 @@
+name: Print Echo Statement
+
+on: [push]
+
+jobs:
+  print_echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Echo
+        run: echo "Hello, this is an echo statement!"
