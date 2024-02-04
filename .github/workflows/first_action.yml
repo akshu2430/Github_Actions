@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Echo
-        run: echo "Hello, this is an echo statement!"
+        run: echo "Hello, My first code in github actions!"
